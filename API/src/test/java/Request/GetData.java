@@ -17,6 +17,9 @@ public class GetData {
 	int code=res.getStatusCode();
 	System.out.print("The status code is DNA:"+   code);
 	
+	System.out.print("The status code is DNA");
+	
+	
 	Assert.assertEquals(code,200 );
 		}
 		catch(Exception e)
